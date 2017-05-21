@@ -1,0 +1,31 @@
+body{
+	margin: 10px 390px;
+}
+div{
+	display: inline-block;
+	margin: 0px;
+	line-height: 0px;
+	float: left;
+}
+.main-square{
+	height: 600px;
+	width: 600px;
+	background-color: #fff;
+}
+
+.empty{
+	height: 200px;
+	width: 200px;
+	background-color: #850000;
+}
+
+.empty-white{
+	height: 200px;
+	width: 200px;
+	background-color: #fff;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
