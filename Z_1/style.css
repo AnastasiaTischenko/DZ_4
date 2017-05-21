@@ -1,16 +1,15 @@
-.main-border{
+.wrapper{
 	border: solid;
 	border-color: #5a5a5a;
 	border-width: 2px;
 	width: 380px;
 	height: 530px;
 	padding: 7px;
+	margin: 30px;
 }
 
-.lenovo{
+.header{
 	font-family: Tahoma, sans-serif;
-	font-size: 22px;
-	font-weight: 500;
 	text-transform: capitalize;
 	text-align: center;
 	line-height: 10px;
@@ -32,9 +31,8 @@ img{
 	color: #fff;
 	text-align: center;
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 20px;
 	font-family: Tahoma, sans-serif;
-	box-shadow: 0px 2px 0px 1px #9c9c9c;
 	margin: 3px 0px;
 	text-shadow: 0px 1px 0px #c6dfac;
 }
@@ -44,7 +42,7 @@ img{
 	font-size: 30px;
 	color: #000;
 	text-align: center;
-	margin: 20px auto 0px;
+	margin: 20px auto 20px;
 	text-shadow: 1px 1px 1px #424242;
 }
 .buy{
@@ -52,12 +50,14 @@ img{
 	width: 230px;
 	background-color: #ff0000;
 	display: block;
-	margin: 0 auto 7px;
+	margin: 0px auto 7px;
 	font-family: Tahoma, sans-serif;
 	text-align: center;
 	color: #fff;
 	font-size: 22px;
-	box-shadow:  0px 2px 0px 1px #850000;
-	line-height: 50px;
+	line-height: 40px;
 	text-shadow: -1px 2px 0px #220000;
+}
+.b{
+	margin: 0px;
 }

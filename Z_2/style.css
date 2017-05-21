@@ -1,30 +1,18 @@
-body{
-	margin: 10px 390px;
+.main-square {
+    width: 600px;
+    height: 600px;
 }
-div{
-	display: inline-block;
-	margin: 0px;
-	line-height: 0px;
-	float: left;
+.main-square div {
+    float: left;
+    width: 200px;
+    height: 200px;
 }
-.main-square{
-	height: 600px;
-	width: 600px;
-	background-color: #fff;
+.main-square div:nth-child(odd){
+    background-color: #850000;
 }
-
-.empty{
-	height: 200px;
-	width: 200px;
-	background-color: #850000;
+.main-square div:nth-child(even){
+    background-color: #fff;
 }
-
-.empty-white{
-	height: 200px;
-	width: 200px;
-	background-color: #fff;
-}
-
 img{
 	height: 200px;
 	width: 200px;
